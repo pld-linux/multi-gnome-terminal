@@ -65,6 +65,8 @@ rm -rf $RPM_BUILD_ROOT
 	utildir=%{_applnkdir}/Terminals \
 	omf_dest_dir=%{_omf_dest_dir}/mgt
 
+mv -f $RPM_BUILD_ROOT%{_pixmapsdir}/mgt/multignometerm.png $RPM_BUILD_ROOT%{_pixmapsdir}
+
 %find_lang %{name} --with-gnome
 
 %post   -p /usr/bin/scrollkeeper-update
