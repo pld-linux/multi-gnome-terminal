@@ -28,6 +28,7 @@ URL:		http://multignometerm.sf.net/
 BuildRequires:	gdk-pixbuf-devel >= 0.7.0
 BuildRequires:	gnome-libs-devel >= 1.4.1.4
 BuildRequires:	libglade-devel >= 0.14
+BuildRequires:	gdk+-devel >= 1.2.0
 BuildRequires:	libxml-devel
 BuildRequires:	scrollkeeper
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
