@@ -78,14 +78,13 @@ rm -rf $RPM_BUILD_ROOT
 %post   -p /usr/bin/scrollkeeper-update
 %postun -p /usr/bin/scrollkeeper-update
 
-%files
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc README NEWS AUTHORS
 %{_sysconfdir}/CORBA/servers/multi-gnome-terminal.gnorba
 %attr(755,root,root) %{_bindir}/*
 %attr(755,root,root) %{_sbindir}/*
 %{_datadir}/mgt
-%{_datadir}/gnome/help/*
 %{_datadir}/idl/*
 %{_omf_dest_dir}/mgt
 %{_mandir}/man1/*
