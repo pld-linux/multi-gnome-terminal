@@ -7,6 +7,7 @@ Epoch:		1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/multignometerm/%{name}-%{version}.tar.bz2
+# Source0-md5:	52b65d2326efc4273716383b0196e95f
 Patch0:		%{name}-xterm-color.patch
 Patch1:		%{name}-xterm-f1-f4.patch
 Patch2:		%{name}-omf.patch
