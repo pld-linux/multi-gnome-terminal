@@ -1,7 +1,7 @@
 Summary:	The Enhanced GNOME Terminal
 Summary(pl):	Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
-Version:	1.3.9
+Version:	1.3.10
 Release:	1
 License:	GPL
 Group:		X11/Applications
@@ -83,6 +83,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/CORBA/servers/multi-gnome-terminal.gnorba
 %attr(755,root,root) %{_bindir}/%{name}
 %{_datadir}/gnome-terminal
+%{_datadir}/idl/*
 %{_omf_dest_dir}/omf/mgt
 %{_mandir}/man1/%{name}*
 %{_applnkdir}/Terminals/*
