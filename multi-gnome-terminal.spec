@@ -1,7 +1,7 @@
 Summary:	The Enhanced GNOME Terminal
 Summary(pl):	Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
-Version:	1.3.11
+Version:	1.3.12
 Release:	1
 License:	GPL
 Group:		X11/Applications
