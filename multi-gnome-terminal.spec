@@ -79,12 +79,12 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README NEWS AUTHORS
 %{_sysconfdir}/CORBA/servers/multi-gnome-terminal.gnorba
-%attr(755,root,root) %{_bindir}/%{name}
+%attr(755,root,root) %{_bindir}/*
 %attr(755,root,root) %{_sbindir}/*
 %{_datadir}/mgt
 %{_datadir}/gnome/help/*
 %{_datadir}/idl/*
 %{_omf_dest_dir}/mgt
-%{_mandir}/man1/%{name}*
+%{_mandir}/man1/*
 %{_applnkdir}/Terminals/*
 %{_pixmapsdir}/*
