@@ -1,14 +1,17 @@
 diff -urN multi-gnome-terminal-1.6.2.orig/gnome-terminal/multi-gnome-terminal.desktop multi-gnome-terminal-1.6.2/gnome-terminal/multi-gnome-terminal.desktop
 --- multi-gnome-terminal-1.6.2.orig/gnome-terminal/multi-gnome-terminal.desktop	2002-08-31 18:13:50.000000000 +0200
 +++ multi-gnome-terminal-1.6.2/gnome-terminal/multi-gnome-terminal.desktop	2004-07-04 16:46:07.782235136 +0200
-@@ -1,8 +1,9 @@
+@@ -1,8 +1,11 @@
  [Desktop Entry]
++Encoding=UTF-8
  Name=multi GNOME terminal
  Comment=Enhanced Terminal emulation program
 -Exec=NO_XALF multi-gnome-terminal --use-factory --start-factory-server
++Comment[pl]=Program emulacji terminala o rozszerzonych możliwościach
 +Exec=multi-gnome-terminal --use-factory --start-factory-server
  Icon=multignometerm.png
- Terminal=0
+-Terminal=0
++Terminal=false
  Type=Application
  DocPath=multi-gnome-terminal/index.html
 +Categories=GTK;GNOME;TerminalEmulator;
