@@ -1,15 +1,16 @@
 Summary:	The Enhanced GNOME Terminal
 Summary(pl):	Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
-Version:	1.4.1
-Release:	3
+Version:	1.5.0
+Release:	0.1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://multignometerm.sf.net/%{name}-%{version}.tar.bz2
+Source0:	http://telia.dl.sourceforge.net/sourceforge/multignometerm/%{name}-%{version}.tar.gz
 Patch0:		%{name}-xterm-color.patch
 URL:		http://multignometerm.sf.net/
-BuildRequires:	gdk-pixbuf-devel >= 0.7.0
+BuildRequires:	gdk-pixbuf-devel >= 0.18.0
+BuildRequires:	gdk-pixbuf-gnome-devel >= 0.18.0
 BuildRequires:	gnome-libs-devel >= 1.4.1.4
 BuildRequires:	libglade-devel >= 0.14
 BuildRequires:	libxml-devel
