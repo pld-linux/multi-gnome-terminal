@@ -1,7 +1,7 @@
 Summary:	The Enhanced GNOME Terminal
 Summary(pl):	Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
-Version:	1.4.0
+Version:	1.4.1
 Release:	1
 Epoch:		1
 License:	GPL
