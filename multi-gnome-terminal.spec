@@ -2,14 +2,10 @@ Summary:	The Enhanced GNOME Terminal
 Summary(pl):	Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
 Version:	1.3.10
-Release:	4
+Release:	5
+Epoch:		1
 License:	GPL
 Group:		X11/Applications
-Group(de):	X11/Applikationen
-Group(es):	X11/Aplicaciones
-Group(pl):	X11/Aplikacje
-Group(pt_BR):	X11/Aplicações
-Group(pt):	X11/Aplicações
 Source0:	http://multignometerm.sf.net/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-xterm-color.patch
 URL:		http://multignometerm.sf.net/
