@@ -11,6 +11,7 @@ Source0:	http://dl.sourceforge.net/multignometerm/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-xterm-color.patch
 Patch1:		%{name}-xterm-f1-f4.patch
 Patch2:		%{name}-omf.patch
+Patch3:		%{name}-desktop.patch
 URL:		http://multignometerm.sf.net/
 BuildRequires:	gdk-pixbuf-devel >= 0.18.0
 BuildRequires:	gdk-pixbuf-gnome-devel >= 0.18.0
@@ -54,6 +55,7 @@ ka¿dego.
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
+%patch3 -p1
 
 %build
 CFLAGS="%{rpmcflags} -DREDHAT_TERM"
@@ -65,7 +67,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
-	utildir=%{_applnkdir}/Terminals \
+	utildir=%{_desktopdir} \
 	omf_dest_dir=%{_omf_dest_dir}/mgt
 
 mv -f $RPM_BUILD_ROOT%{_pixmapsdir}/mgt/multignometerm.png $RPM_BUILD_ROOT%{_pixmapsdir}
@@ -88,5 +90,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/idl/*
 %{_omf_dest_dir}/mgt
 %{_mandir}/man1/*
-%{_applnkdir}/Terminals/*
+%{_desktopdir}/*
 %{_pixmapsdir}/*
