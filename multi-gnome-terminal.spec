@@ -2,7 +2,7 @@ Summary:	The Enhanced GNOME Terminal
 Summary(pl):	Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
 Version:	1.5.2
-Release:	2
+Release:	3
 Epoch:		1
 License:	GPL
 Group:		X11/Applications
@@ -12,7 +12,7 @@ URL:		http://multignometerm.sf.net/
 BuildRequires:	gdk-pixbuf-devel >= 0.18.0
 BuildRequires:	gdk-pixbuf-gnome-devel >= 0.18.0
 BuildRequires:	gnome-libs-devel >= 1.4.1.4
-BuildRequires:	libglade-devel >= 0.14
+BuildRequires:	libglade-gnome-devel >= 0.14
 BuildRequires:	libxml-devel
 BuildRequires:	scrollkeeper
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -69,11 +69,11 @@ mv -f $RPM_BUILD_ROOT%{_pixmapsdir}/mgt/multignometerm.png $RPM_BUILD_ROOT%{_pix
 
 %find_lang %{name} --with-gnome
 
-%post   -p /usr/bin/scrollkeeper-update
-%postun -p /usr/bin/scrollkeeper-update
-
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+%post   -p /usr/bin/scrollkeeper-update
+%postun -p /usr/bin/scrollkeeper-update
 
 %files
 %defattr(644,root,root,755)
