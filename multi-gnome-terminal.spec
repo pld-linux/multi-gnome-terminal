@@ -1,12 +1,12 @@
 Summary:	The Enhanced GNOME Terminal
 Summary(pl):	Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
-Version:	1.6.1
-Release:	2
+Version:	1.6.2
+Release:	1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://telia.dl.sourceforge.net/sourceforge/multignometerm/%{name}-%{version}.tar.bz2
+Source0:	http://dl.sourceforge.net/multignometerm/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-xterm-color.patch
 Patch1:		%{name}-xterm-f1-f4.patch
 Patch2:		%{name}-omf.patch
