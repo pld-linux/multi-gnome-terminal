@@ -1,8 +1,8 @@
 Summary:	The Enhanced GNOME Terminal
 Summary(pl):	Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
-Version:	1.5.2
-Release:	4
+Version:	1.6.1
+Release:	1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications
