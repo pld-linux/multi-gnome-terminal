@@ -3,6 +3,7 @@ Summary(pl):	Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
 Version:	1.3.13
 Release:	1
+Epoch:		1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://multignometerm.sf.net/%{name}-%{version}.tar.bz2
