@@ -5,23 +5,6 @@ Version:	1.3.12
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Group(cs):	X11/Aplikace
-Group(da):	X11/Programmer
-Group(de):	X11/Applikationen
-Group(es):	X11/Aplicaciones
-Group(fr):	X11/Applications
-Group(id):	X11/Aplikasi
-Group(is):	X11/Forrit
-Group(it):	X11/Applicazioni
-Group(ja):	X11/¥¢¥×¥ê¥±¡¼¥·¥ç¥ó
-Group(no):	X11/Applikasjoner
-Group(pl):	X11/Aplikacje
-Group(pt_BR):	X11/Aplicações
-Group(pt):	X11/Aplicações
-Group(ru):	X11/ğÒÉÌÏÖÅÎÉÑ
-Group(sl):	X11/Programi
-Group(sv):	X11/Tillämpningar
-Group(uk):	X11/ğÒÉËÌÁÄÎ¦ ğÒÏÇÒÁÍÉ
 Source0:	http://multignometerm.sf.net/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-xterm-color.patch
 URL:		http://multignometerm.sf.net/
