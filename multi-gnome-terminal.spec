@@ -21,7 +21,7 @@ BuildRequires:	scrollkeeper
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
-%define		_mandir		/usr/share/man
+%define		_mandir		%{_prefix}/man
 %define		_omf_dest_dir	%(scrollkeeper-config --omfdir)
 
 %description
@@ -64,7 +64,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
-	utildir=%{_applnkdir}/Terminals
+	utildir=%{_applnkdir}/Terminals \
 	omf_dest_dir=%{_omf_dest_dir}/omf/mgt
 
 gzip -9nf README NEWS AUTHORS
