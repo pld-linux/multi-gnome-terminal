@@ -1,0 +1,192 @@
+diff -ur multi-gnome-terminal-1.6.1.old/gnome-terminal/C/multi-gnome-terminal-C.omf multi-gnome-terminal-1.6.1/gnome-terminal/C/multi-gnome-terminal-C.omf
+--- multi-gnome-terminal-1.6.1.old/gnome-terminal/C/multi-gnome-terminal-C.omf	Tue Apr 30 05:06:13 2002
++++ multi-gnome-terminal-1.6.1/gnome-terminal/C/multi-gnome-terminal-C.omf	Fri Oct  4 17:34:05 2002
+@@ -1,15 +1,23 @@
+-<?xml version="1.0" standalone="no"?>
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE omf PUBLIC "-//OMF//DTD Scrollkeeper OMF Variant V1.0//EN" "http://scrollkeeper.sourceforge.net/dtds/scrollkeeper-omf-1.0/scrollkeeper-omf.dtd">
+ <omf>
+   <resource>
++    <creator/>
+     <title>
+       Multi GNOME Terminal User's Guide
+     </title>
+-    <subject>
+-      <category>Applications|Utilities|Terminals</category>
+-      <category>GNOME|System</category>
+-    </subject>
++    <date>
++      2002-10-04
++    </date>
++    <version identifier="1.6.1" date="2002-10-04"/>
++    <subject category="Applications|Utilities|Terminals"/>
++    <subject category="GNOME|System"/>
++    <description/>
++    <type/>
+     <format mime="text/sgml"/>
+     <identifier url="multi-gnome-terminal.sgml"/>
+     <language code="C"/>
++    <relation seriesid="b70f1994-d7ae-11d6-814b-9344b31e7976"/>
++    <rights type="GNU GPL" license.version="2" license="http://www.gnu.org/licenses/gpl.html"/>
+   </resource>
+ </omf>
+diff -ur multi-gnome-terminal-1.6.1.old/gnome-terminal/da/multi-gnome-terminal-C.omf multi-gnome-terminal-1.6.1/gnome-terminal/da/multi-gnome-terminal-C.omf
+--- multi-gnome-terminal-1.6.1.old/gnome-terminal/da/multi-gnome-terminal-C.omf	Mon Jun  3 02:15:12 2002
++++ multi-gnome-terminal-1.6.1/gnome-terminal/da/multi-gnome-terminal-C.omf	Fri Oct  4 17:34:05 2002
+@@ -1,15 +1,23 @@
+-<?xml version="1.0" standalone="no"?>
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE omf PUBLIC "-//OMF//DTD Scrollkeeper OMF Variant V1.0//EN" "http://scrollkeeper.sourceforge.net/dtds/scrollkeeper-omf-1.0/scrollkeeper-omf.dtd">
+ <omf>
+   <resource>
++    <creator/>
+     <title>
+       Multi GNOME Terminal User's Guide
+     </title>
+-    <subject>
+-      <category>Applications|Utilities|Terminals</category>
+-      <category>GNOME|System</category>
+-    </subject>
++    <date>
++      2002-10-04
++    </date>
++    <version identifier="1.6.1" date="2002-10-04"/>
++    <subject category="Applications|Utilities|Terminals"/>
++    <subject category="GNOME|System"/>
++    <description/>
++    <type/>
+     <format mime="text/sgml"/>
+     <identifier url="multi-gnome-terminal.sgml"/>
+     <language code="da"/>
++    <relation seriesid="b70f1994-d7ae-11d6-814b-9344b31e7976"/>
++    <rights type="GNU GPL" license.version="2" license="http://www.gnu.org/licenses/gpl.html"/>
+   </resource>
+ </omf>
+diff -ur multi-gnome-terminal-1.6.1.old/gnome-terminal/de/multi-gnome-terminal-C.omf multi-gnome-terminal-1.6.1/gnome-terminal/de/multi-gnome-terminal-C.omf
+--- multi-gnome-terminal-1.6.1.old/gnome-terminal/de/multi-gnome-terminal-C.omf	Mon Jun  3 02:15:12 2002
++++ multi-gnome-terminal-1.6.1/gnome-terminal/de/multi-gnome-terminal-C.omf	Fri Oct  4 17:34:05 2002
+@@ -1,15 +1,23 @@
+-<?xml version="1.0" standalone="no"?>
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE omf PUBLIC "-//OMF//DTD Scrollkeeper OMF Variant V1.0//EN" "http://scrollkeeper.sourceforge.net/dtds/scrollkeeper-omf-1.0/scrollkeeper-omf.dtd">
+ <omf>
+   <resource>
++    <creator/>
+     <title>
+       Multi GNOME Terminal User's Guide
+     </title>
+-    <subject>
+-      <category>Applications|Utilities|Terminals</category>
+-      <category>GNOME|System</category>
+-    </subject>
++    <date>
++      2002-10-04
++    </date>
++    <version identifier="1.6.1" date="2002-10-04"/>
++    <subject category="Applications|Utilities|Terminals"/>
++    <subject category="GNOME|System"/>
++    <description/>
++    <type/>
+     <format mime="text/sgml"/>
+     <identifier url="multi-gnome-terminal.sgml"/>
+     <language code="de"/>
++    <relation seriesid="b70f1994-d7ae-11d6-814b-9344b31e7976"/>
++    <rights type="GNU GPL" license.version="2" license="http://www.gnu.org/licenses/gpl.html"/>
+   </resource>
+ </omf>
+diff -ur multi-gnome-terminal-1.6.1.old/gnome-terminal/es/multi-gnome-terminal-C.omf multi-gnome-terminal-1.6.1/gnome-terminal/es/multi-gnome-terminal-C.omf
+--- multi-gnome-terminal-1.6.1.old/gnome-terminal/es/multi-gnome-terminal-C.omf	Mon Jun  3 02:15:12 2002
++++ multi-gnome-terminal-1.6.1/gnome-terminal/es/multi-gnome-terminal-C.omf	Fri Oct  4 17:34:05 2002
+@@ -1,15 +1,23 @@
+-<?xml version="1.0" standalone="no"?>
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE omf PUBLIC "-//OMF//DTD Scrollkeeper OMF Variant V1.0//EN" "http://scrollkeeper.sourceforge.net/dtds/scrollkeeper-omf-1.0/scrollkeeper-omf.dtd">
+ <omf>
+   <resource>
++    <creator/>
+     <title>
+       Multi GNOME Terminal User's Guide
+     </title>
+-    <subject>
+-      <category>Applications|Utilities|Terminals</category>
+-      <category>GNOME|System</category>
+-    </subject>
++    <date>
++      2002-10-04
++    </date>
++    <version identifier="1.6.1" date="2002-10-04"/>
++    <subject category="Applications|Utilities|Terminals"/>
++    <subject category="GNOME|System"/>
++    <description/>
++    <type/>
+     <format mime="text/sgml"/>
+     <identifier url="multi-gnome-terminal.sgml"/>
+     <language code="es"/>
++    <relation seriesid="b70f1994-d7ae-11d6-814b-9344b31e7976"/>
++    <rights type="GNU GPL" license.version="2" license="http://www.gnu.org/licenses/gpl.html"/>
+   </resource>
+ </omf>
+diff -ur multi-gnome-terminal-1.6.1.old/gnome-terminal/it/multi-gnome-terminal-C.omf multi-gnome-terminal-1.6.1/gnome-terminal/it/multi-gnome-terminal-C.omf
+--- multi-gnome-terminal-1.6.1.old/gnome-terminal/it/multi-gnome-terminal-C.omf	Mon Jun  3 02:15:12 2002
++++ multi-gnome-terminal-1.6.1/gnome-terminal/it/multi-gnome-terminal-C.omf	Fri Oct  4 17:34:05 2002
+@@ -1,15 +1,23 @@
+-<?xml version="1.0" standalone="no"?>
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE omf PUBLIC "-//OMF//DTD Scrollkeeper OMF Variant V1.0//EN" "http://scrollkeeper.sourceforge.net/dtds/scrollkeeper-omf-1.0/scrollkeeper-omf.dtd">
+ <omf>
+   <resource>
++    <creator/>
+     <title>
+       Multi GNOME Terminal User's Guide
+     </title>
+-    <subject>
+-      <category>Applications|Utilities|Terminals</category>
+-      <category>GNOME|System</category>
+-    </subject>
++    <date>
++      2002-10-04
++    </date>
++    <version identifier="1.6.1" date="2002-10-04"/>
++    <subject category="Applications|Utilities|Terminals"/>
++    <subject category="GNOME|System"/>
++    <description/>
++    <type/>
+     <format mime="text/sgml"/>
+     <identifier url="multi-gnome-terminal.sgml"/>
+     <language code="it"/>
++    <relation seriesid="b70f1994-d7ae-11d6-814b-9344b31e7976"/>
++    <rights type="GNU GPL" license.version="2" license="http://www.gnu.org/licenses/gpl.html"/>
+   </resource>
+ </omf>
+diff -ur multi-gnome-terminal-1.6.1.old/gnome-terminal/no/multi-gnome-terminal-C.omf multi-gnome-terminal-1.6.1/gnome-terminal/no/multi-gnome-terminal-C.omf
+--- multi-gnome-terminal-1.6.1.old/gnome-terminal/no/multi-gnome-terminal-C.omf	Mon Jun  3 02:15:12 2002
++++ multi-gnome-terminal-1.6.1/gnome-terminal/no/multi-gnome-terminal-C.omf	Fri Oct  4 17:34:05 2002
+@@ -1,15 +1,23 @@
+-<?xml version="1.0" standalone="no"?>
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE omf PUBLIC "-//OMF//DTD Scrollkeeper OMF Variant V1.0//EN" "http://scrollkeeper.sourceforge.net/dtds/scrollkeeper-omf-1.0/scrollkeeper-omf.dtd">
+ <omf>
+   <resource>
++    <creator/>
+     <title>
+       Multi GNOME Terminal User's Guide
+     </title>
+-    <subject>
+-      <category>Applications|Utilities|Terminals</category>
+-      <category>GNOME|System</category>
+-    </subject>
++    <date>
++      2002-10-04
++    </date>
++    <version identifier="1.6.1" date="2002-10-04"/>
++    <subject category="Applications|Utilities|Terminals"/>
++    <subject category="GNOME|System"/>
++    <description/>
++    <type/>
+     <format mime="text/sgml"/>
+     <identifier url="multi-gnome-terminal.sgml"/>
+     <language code="no"/>
++    <relation seriesid="b70f1994-d7ae-11d6-814b-9344b31e7976"/>
++    <rights type="GNU GPL" license.version="2" license="http://www.gnu.org/licenses/gpl.html"/>
+   </resource>
+ </omf>
