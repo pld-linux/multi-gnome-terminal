@@ -62,7 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
 	utildir=%{_applnkdir}/Terminals \
-	omf_dest_dir=%{_omf_dest_dir}/omf/mgt
+	omf_dest_dir=%{_omf_dest_dir}/mgt
 
 gzip -9nf README NEWS AUTHORS
 
@@ -83,7 +83,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mgt
 %{_datadir}/gnome/help
 %{_datadir}/idl/*
-%{_omf_dest_dir}/omf/mgt
+%{_omf_dest_dir}/mgt
 %{_mandir}/man1/%{name}*
 %{_applnkdir}/Terminals/*
 %{_pixmapsdir}/*
