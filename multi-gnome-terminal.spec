@@ -2,7 +2,7 @@ Summary:	The Enhanced GNOME Terminal
 Summary(pl):	Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
 Version:	1.5.0
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		X11/Applications
