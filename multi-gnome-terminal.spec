@@ -8,10 +8,9 @@ License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/multignometerm/%{name}-%{version}.tar.bz2
 # Source0-md5:	52b65d2326efc4273716383b0196e95f
-Patch0:		%{name}-xterm-color.patch
-Patch1:		%{name}-xterm-f1-f4.patch
-Patch2:		%{name}-omf.patch
-Patch3:		%{name}-desktop.patch
+Patch0:		%{name}-xterm-f1-f4.patch
+Patch1:		%{name}-omf.patch
+Patch2:		%{name}-desktop.patch
 URL:		http://multignometerm.sf.net/
 BuildRequires:	gdk-pixbuf-devel >= 0.18.0
 BuildRequires:	gdk-pixbuf-gnome-devel >= 0.18.0
@@ -55,7 +54,6 @@ ka¿dego.
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
-%patch3 -p1
 
 %build
 CFLAGS="%{rpmcflags} -DREDHAT_TERM"
