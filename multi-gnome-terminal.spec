@@ -11,7 +11,7 @@ Source0:	http://dl.sourceforge.net/multignometerm/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-xterm-f1-f4.patch
 Patch1:		%{name}-omf.patch
 Patch2:		%{name}-desktop.patch
-URL:		http://multignometerm.sf.net/
+URL:		http://multignometerm.sourceforge.net/
 BuildRequires:	gdk-pixbuf-devel >= 0.18.0
 BuildRequires:	gdk-pixbuf-gnome-devel >= 0.18.0
 BuildRequires:	gnome-libs-devel >= 1.4.1.4
