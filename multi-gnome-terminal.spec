@@ -88,5 +88,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/idl/*
 %{_omf_dest_dir}/mgt
 %{_mandir}/man1/*
-%{_desktopdir}/*
+%{_desktopdir}/*.desktop
 %{_pixmapsdir}/*
