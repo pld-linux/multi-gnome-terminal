@@ -1,5 +1,5 @@
 Summary:	The Enhanced GNOME Terminal
-Summary(pl):	Ulepszony GNOME Terminal
+Summary(pl.UTF-8):   Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
 Version:	1.6.2
 Release:	5
@@ -36,18 +36,18 @@ has the following features added:
 All these extensions are inspired by screen and konsole (the kde2
 terminal) and are undoubtly very useful to each user.
 
-%description -l pl
-Multi Gnome Terminal jest wersj± standardowego GNOME Terminala
-rozszerzon± o nowe mo¿liwo¶ci:
+%description -l pl.UTF-8
+Multi Gnome Terminal jest wersjÄ… standardowego GNOME Terminala
+rozszerzonÄ… o nowe moÅ¼liwoÅ›ci:
   - Kilka terminali w jednym oknie
-  - Prze³±czanie pomiêdzy terminalami za pomoc± skrótów klawiszowych
-  - Wykonywanie definiowanych przez u¿ytkownika komend w nowych
+  - PrzeÅ‚Ä…czanie pomiÄ™dzy terminalami za pomocÄ… skrÃ³tÃ³w klawiszowych
+  - Wykonywanie definiowanych przez uÅ¼ytkownika komend w nowych
     terminalach
-  - Powiadamianie o stanie terminali przy u¿yciu zmian kolorów zak³adek
+  - Powiadamianie o stanie terminali przy uÅ¼yciu zmian kolorÃ³w zakÅ‚adek
 
-Wszystkie te rozszerzenia s± inspirowane przez programy screen i
-konsole (emulator terminala KDE2), i niew±tpliwie s± u¿yteczne dla
-ka¿dego.
+Wszystkie te rozszerzenia sÄ… inspirowane przez programy screen i
+konsole (emulator terminala KDE2), i niewÄ…tpliwie sÄ… uÅ¼yteczne dla
+kaÅ¼dego.
 
 %prep
 %setup -q
