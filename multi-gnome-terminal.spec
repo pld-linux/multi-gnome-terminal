@@ -1,5 +1,5 @@
 Summary:	The Enhanced GNOME Terminal
-Summary(pl.UTF-8):   Ulepszony GNOME Terminal
+Summary(pl.UTF-8):	Ulepszony GNOME Terminal
 Name:		multi-gnome-terminal
 Version:	1.6.2
 Release:	5
